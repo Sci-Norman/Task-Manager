@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import useLocalStorage from '../utils/useLocalStorage'
 import Button from '../components/Button'
-import TaskList from '../components/Tasklist'
+import TaskList from '../components/TaskList'
 
 export default function TaskManager() {
   const [tasks, setTasks] = useLocalStorage('tasks', [])
