@@ -7,7 +7,7 @@ export default function Home() {
     <div className="text-center py-12">
       {/* Existing content... */}
       <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-        <Card title="Task Management">
+        <Card title="Norman Task Management">
           Create, complete, and organize your tasks efficiently.
         </Card>
         <Card title="API Integration">
